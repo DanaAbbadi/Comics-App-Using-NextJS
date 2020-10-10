@@ -1,22 +1,32 @@
-# Basic CSS example
+# Comics App Using Next.js Framework
 
-Next.js has built-in support for [CSS Modules](https://nextjs.org/docs/basic-features/built-in-css-support#adding-component-level-css) allowing you to write scoped CSS by automatically creating a unique class name. CSS Module files can be imported anywhere in your application and you don't have to worry about collisions.
 
-## Deploy your own
+## Overview
 
-Deploy the example using [Vercel](https://vercel.com):
+Next.js is a framework that renders react applications on the server. This means when we create a normal react app (using create-react-app for example) and load it to the browser, all the content is created by client-side javascript. Hence users or devices that don't have javascript will not be able to access your app.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/vercel/next.js/tree/canary/examples/basic-css)
+_______________________________________________
 
-## How to use
+## Objective
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+Build a multi page web app using Next.js to consume an external API.
+The app will display most recent XKCD comic and have links to previous 10 comics.
 
-```bash
-npx create-next-app --example basic-css basic-css-app
-# or
-yarn create next-app --example basic-css basic-css-app
-```
+________________________________________________
 
-Deploy it to the cloud with [Vercel](https://vercel.com/import?filter=next.js&utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
-# Comics-App-Using-NextJS
+## Technologies
+
+JavaScript
+ReactJS
+Next.js
+npm
+
+_______________________________________
+
+## API
+
+Used  [XKCD API](https://xkcd.com/json.html) to fetch comics and metadata automatically,
+using the JSON interface.
+
+Those files contain, in a plaintext and easily-parsed format: comic titles,
+URLs, post dates, transcripts (when available), and other metadata.
