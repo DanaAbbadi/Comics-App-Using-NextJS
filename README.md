@@ -1,4 +1,4 @@
-# Comics App Using NextJS Framework
+# Comics App Using Next.js Framework
 
 
 ## Overview
@@ -18,7 +18,7 @@ ________________________________________________
 
 JavaScript
 ReactJS
-NextJS
+Next.js
 npm
 
 _______________________________________
