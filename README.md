@@ -16,10 +16,10 @@ ________________________________________________
 
 ## Technologies
 
-JavaScript
-ReactJS
-Next.js
-npm
+* JavaScript
+* ReactJS
+* Next.js
+* npm
 
 _______________________________________
 
